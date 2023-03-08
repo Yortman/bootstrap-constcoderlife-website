@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>const coderLife</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8d5d8a1ce3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- SHOWCASE -->
+    <section
+      class="bg-dark text-light p-5 text-center d-flex h-100 min-vh-100"
+      id="Home"
+    >
+      <div
+        class="container container-fluid justify-content-center align-items-center"
+      >
+        <div
+          class="d-flex flex-column align-items-center h-100 justify-content-center"
+        >
+          <h1>
+            Hello, I'm <span class="text-warning">Troy Tirrell</span>
+            <p class="lead my-3">I'm a front-end web developer</p>
+          </h1>
+          <a href="#About" class="text-decoration-none"
+            ><button
+              type="button"
+              style="display: block"
+              class="btn btn-outline-warning btn-lg mt-2"
+            >
+              View my work
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-md navbar-dark py-1 sticky-top"
+      style="background-color: #212529"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand" id="Home">const coderLife</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto gap-4">
+            <li class="nav-item">
+              <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+
+    <div class="container-fluid bg-light" id="About"></div>
+    <section class="p-5 min-vh-100 mt-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-4 mb-2">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-speedometer2"></i>
+                </div>
+                <h3 class="card-title mb-3">Speed</h3>
+                <button
+                  type="button"
+                  class="btn btn-light lead"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-html="true"
+                  data-bs-title="<em><h6>I optimize for fast load times and lag free interaction.</h6></em>"
+                >
+                  Hover
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <div class="card bg-primary text-light border-1">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person"></i>
+                </div>
+                <h3 class="card-title mb-3">Integrity</h3>
+                <button
+                  type="button"
+                  class="btn btn-light lead"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-html="true"
+                  data-bs-title="<em><h6>I have a clear standard of ethics: Do what you say and promise without compromise. Always follow through.</h6></em>"
+                >
+                  Hover
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <div class="card bg-warning text-dark border-1">
+              <div class="card-body text-center text-nowrap">
+                <div class="h1 mb-3">
+                  <i class="bi bi-chat-left-text"></i>
+                </div>
+                <h3 class="card-title mb-3">Responsive</h3>
+                <button
+                  type="button"
+                  class="btn btn-light lead"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-html="true"
+                  data-bs-title="<em><h6>I prioritize availability and communication, contributing to a reliable and trustworthy customer experience.</h6></em>"
+                >
+                  Hover
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-5 col-lg-4 col-sm-12 mt-5">
+            <img
+              src="/images/me2.png"
+              class="img-fluid img p-3"
+              alt="Troy Tirrell - Web Developer"
+            />
+          </div>
+          <div
+            class="col-md-7 mt-lg-5 text-center pt-xl-5 ps-lg-5 ms-lg-5 mt-md-4"
+          >
+            <b class="fs-3">Who is this guy?</b>
+            <div class="mt-5 text-center fs-5 mb-3">
+              Just a man that likes technology and loves continuous learning
+              even more. I seek adventure with outdoor activities and when it
+              comes to work, acheiveing excellence while maintaining a humble
+              ever-learning attitude.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row text-center mx-5">
+          <div class="col-4 col-sm-2 mt-3">
+            <img src="/images/HTML5_Logo_64.png" alt="HTML5" />
+          </div>
+          <div class="col-4 col-sm-2 mt-3">
+            <img src="/images/CSS3_logo.png" alt="CSS3" />
+          </div>
+          <div class="col-4 col-sm-2 mt-3">
+            <img src="/images/javascript.png" alt="javascript" />
+          </div>
+          <div class="col-4 col-sm-2 mt-2">
+            <img src="/images/bootstrap.png" alt="bootstrap" />
+          </div>
+          <div class="col-4 col-sm-2 mt-4">
+            <img src="/images/github.png" alt="github" />
+          </div>
+          <div class="col-4 col-sm-2 mt-3">
+            <img src="/images/sass.png" alt="sass" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <div class="container-fluid" id="Portfolio"></div>
+    <section class="mt-5 bg-warning-subtle min-vh-100">
+      <header
+        class="container-fluid portfolio-bkground mb-3"
+        style="background-image: url(images/transparentwave.png)"
+      >
+        <h1
+          class="text-center text-dark align-items-center justify-content-center d-flex h-100"
+        >
+          Portfolio
+        </h1>
+      </header>
+
+      <!-- PORTFOLIO CAROUSEL SECTION -->
+
+      <div
+        id="myCarousel"
+        class="carousel slide carousel-fade mt-5 mx-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="overlay-image"
+              style="background-image: url(images/scoreboard.png)"
+            ></div>
+            <div class="container-center carousel-caption pb-5">
+              <h1>Mini Scoreboard</h1>
+              <p>A fun JavaScript tutorial project I enjoyed.</p>
+              <a
+                href="https://miniscoreboard.netlify.app/"
+                target="_blank"
+                class="btn btn-md btn-light"
+                >Go</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="overlay-image"
+              style="background-image: url(images/counter.png)"
+            ></div>
+            <div class="container-center carousel-caption pb-5">
+              <h1>Mobile Attendance Counter</h1>
+              <p>A simple JavaScript counter app.</p>
+              <a
+                href="https://attendancecounter.netlify.app/"
+                target="_blank"
+                class="btn btn-md btn-light"
+                >Go</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="overlay-image"
+              style="background-image: url(images/constcoder.png)"
+            ></div>
+            <div class="container-center carousel-caption pb-5">
+              <h1>const coderLife website</h1>
+              <p>My Bootstrap5 website</p>
+              <a
+                href="https://miniscoreboard.netlify.app/"
+                target="_blank"
+                class="btn btn-md btn-light"
+                >Go</a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <div class="container-fluid" id="Contact"></div>
+
+    <section class="pb-5 bg-dark min-vh-100">
+      <svg
+        preserveAspectRatio="none"
+        viewBox="0 0 100 102"
+        height="75"
+        width="100%"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        class="svgcolor-light"
+      >
+        <path
+          d="M0 0 L50 100 L100 0 Z"
+          fill="#fff3cd"
+          stroke-width="2"
+          stroke="#ffc107"
+        ></path>
+      </svg>
+      <div class="container mt-5">
+        <h1 class="text-warning text-center">Contact Me</h1>
+        <div class="lead text-warning text-opacity-50 text-center">
+          Ask a question or work on a project with me!
+        </div>
+        <form class="row g-3 mt-5" action="">
+          <div class="col-md-6 fs-4">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required />
+          </div>
+          <div class="col-md-6 fs-4">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required />
+          </div>
+          <div class="col-md-8 fs-4">
+            <label for="emailInfo" class="form-label">Email</label>
+            <input type="email" class="form-control" id="emailInfo" required />
+          </div>
+          <div class="col-md-4 fs-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="phoneNumber"
+              placeholder="+1 (415) 867-5309"
+            />
+          </div>
+          <div class="col-md-12 fs-4">
+            <label for="comment" class="form-label"
+              >Comments or questions?</label
+            >
+            <textarea
+              class="form-control"
+              id="comment"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </div>
+        </form>
+        <!-- <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center m-5 text-light">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item bg-dark text-light">
+                <span class="fw-bold text-warning">Main Location:</span>
+                Douglas GA
+              </li>
+              <li class="list-group-item bg-dark text-light">
+                <span class="fw-bold text-warning">Email:</span>
+                constcoderlife@gmail.com
+              </li>
+              <li class="list-group-item bg-dark text-light">
+                <span class="fw-bold text-warning">Main Location:</span> Douglas
+                GA
+              </li>
+            </ul>
+          </div>
+          <div
+            class="m-5"
+            id="map"
+            style="width: 400px; height: 300px; border-radius: 10px"
+          ></div>
+        </div> -->
+      </div>
+
+      <!-- FOOTER -->
+
+      <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; 2023 const coderLife</p>
+          <a href="#" class="postition-absolut bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>
+    </section>
+
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+    <!-- <script>
+      // get the form element
+      const form = document.querySelector("form");
+
+      // add an event listener to the form's "submit" event
+      form.addEventListener("submit", (event) => {
+        // prevent the default form submission behavior
+        event.preventDefault();
+
+        // handle the form submission here
+        // ...
+      });
+    </script> -->
+
+    <!-- FORM SUBMISSION -->
+
+    <!-- <script>
+    let form = document.querySelector('.needs-validation');
+
+    form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+    })
+</script> -->
+
+    <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script> -->
+    <!-- <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1Ijoic3B5ZHJtb25reSIsImEiOiJjbGV4Ynd4YjYwN2xoNDJvMHB4dHA5aDJ3In0.nUI8_W1aIcd5jXpqQogyCw";
+      const map = new mapboxgl.Map({
+        container: "map", // container ID
+        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+        style: "mapbox://styles/mapbox/streets-v12", // style URL
+        center: [-73.990593, 40.740121], // starting position
+        zoom: 9, // starting zoom
+      });
+
+      // Add zoom and rotation controls to the map.
+      map.addControl(new mapboxgl.NavigationControl());
+    </script> -->
+  </body>
+</html>

@@ -1,0 +1,129 @@
+.h-100 {
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-item {
+  background: #212529;
+  /* background: #343a40; */
+  color: white;
+  height: 32rem;
+  position: relative;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+.portfolio-bkground {
+  background-color: white;
+  background-image: url(images/transparentwave.png_);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  margin-right: 0;
+}
+
+input.form-control,
+input.form-control::placeholder,
+input.form-control:empty,
+textarea.form-control,
+textarea.form-control:empty {
+  background: #343a40;
+  /* border-color: #495057; */
+  border: none;
+  color: #fff3cd;
+  opacity: 80%;
+}
+
+label.form-label {
+  color: #ffe69c;
+  opacity: 60%;
+}
+
+/* .carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+} */
+/* #tooltip {
+  background: rgb(51, 51, 51);
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  display: none;
+  box-shadow: 0px 0px 5px 3px rgb(51, 51, 51);
+}
+
+#tooltip[data-show] {
+  display: block;
+}
+
+#arrow,
+#arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+}
+
+#arrow {
+  visibility: hidden;
+}
+
+#arrow::before {
+  visibility: visible;
+  content: "";
+  transform: rotate(45deg);
+}
+
+#tooltip[data-popper-placement^="top"] > #arrow {
+  bottom: -4px;
+}
+
+#tooltip[data-popper-placement^="bottom"] > #arrow {
+  top: -4px;
+}
+
+#tooltip[data-popper-placement^="left"] > #arrow {
+  right: -4px;
+}
+
+#tooltip[data-popper-placement^="right"] > #arrow {
+  left: -4px;
+} */

@@ -94,19 +94,18 @@
         <div class="row text-center">
           <div class="col-sm-4 mb-2">
             <div class="card bg-secondary text-light">
-              <div class="card-body text-center">
+              <div
+                class="card-body text-center"
+                data-bs-toggle="tooltip"
+                data-bs-html="true"
+                data-bs-title="<em><h6>I optimize for fast load times and lag free interaction.</h6></em>"
+                data-bs-offset="0%, -125%"
+              >
                 <div class="h1 mb-3">
                   <i class="bi bi-speedometer2"></i>
                 </div>
                 <h3 class="card-title mb-3">Speed</h3>
-                <button
-                  type="button"
-                  class="btn btn-light lead"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  data-bs-html="true"
-                  data-bs-title="<em><h6>I optimize for fast load times and lag free interaction.</h6></em>"
-                >
+                <button type="button" class="btn btn-light lead" disabled>
                   Hover
                 </button>
               </div>
@@ -114,19 +113,18 @@
           </div>
           <div class="col-sm-4 mb-2">
             <div class="card bg-primary text-light border-1">
-              <div class="card-body text-center">
+              <div
+                class="card-body text-center"
+                data-bs-toggle="tooltip"
+                data-bs-html="true"
+                data-bs-title="<em><h6>I have a clear standard of ethics: Do what you say and promise without compromise. Always follow through.</h6></em>"
+                data-bs-offset="0%, -125%"
+              >
                 <div class="h1 mb-3">
                   <i class="bi bi-person"></i>
                 </div>
                 <h3 class="card-title mb-3">Integrity</h3>
-                <button
-                  type="button"
-                  class="btn btn-light lead"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  data-bs-html="true"
-                  data-bs-title="<em><h6>I have a clear standard of ethics: Do what you say and promise without compromise. Always follow through.</h6></em>"
-                >
+                <button type="button" class="btn btn-light lead" disabled>
                   Hover
                 </button>
               </div>
@@ -134,19 +132,18 @@
           </div>
           <div class="col-sm-4 mb-2">
             <div class="card bg-warning text-dark border-1">
-              <div class="card-body text-center text-nowrap">
+              <div
+                class="card-body text-center text-nowrap"
+                data-bs-toggle="tooltip"
+                data-bs-html="true"
+                data-bs-title="<em><h6>I prioritize availability and communication, contributing to a reliable and trustworthy customer experience.</h6></em>"
+                data-bs-offset="0%, -125%"
+              >
                 <div class="h1 mb-3">
                   <i class="bi bi-chat-left-text"></i>
                 </div>
                 <h3 class="card-title mb-3">Responsive</h3>
-                <button
-                  type="button"
-                  class="btn btn-light lead"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  data-bs-html="true"
-                  data-bs-title="<em><h6>I prioritize availability and communication, contributing to a reliable and trustworthy customer experience.</h6></em>"
-                >
+                <button type="button" class="btn btn-light btn lead" disabled>
                   Hover
                 </button>
               </div>
@@ -375,30 +372,6 @@
             <button type="submit" class="btn btn-warning">Submit</button>
           </div>
         </form>
-        <!-- <div class="row g-4">
-          <div class="col-md">
-            <h2 class="text-center m-5 text-light">Contact Info</h2>
-            <ul class="list-group list-group-flush lead">
-              <li class="list-group-item bg-dark text-light">
-                <span class="fw-bold text-warning">Main Location:</span>
-                Douglas GA
-              </li>
-              <li class="list-group-item bg-dark text-light">
-                <span class="fw-bold text-warning">Email:</span>
-                constcoderlife@gmail.com
-              </li>
-              <li class="list-group-item bg-dark text-light">
-                <span class="fw-bold text-warning">Main Location:</span> Douglas
-                GA
-              </li>
-            </ul>
-          </div>
-          <div
-            class="m-5"
-            id="map"
-            style="width: 400px; height: 300px; border-radius: 10px"
-          ></div>
-        </div> -->
       </div>
 
       <!-- FOOTER -->
@@ -454,21 +427,5 @@
         form.classList.add('was-validated');
     })
 </script> -->
-
-    <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script> -->
-    <!-- <script>
-      mapboxgl.accessToken =
-        "pk.eyJ1Ijoic3B5ZHJtb25reSIsImEiOiJjbGV4Ynd4YjYwN2xoNDJvMHB4dHA5aDJ3In0.nUI8_W1aIcd5jXpqQogyCw";
-      const map = new mapboxgl.Map({
-        container: "map", // container ID
-        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-        style: "mapbox://styles/mapbox/streets-v12", // style URL
-        center: [-73.990593, 40.740121], // starting position
-        zoom: 9, // starting zoom
-      });
-
-      // Add zoom and rotation controls to the map.
-      map.addControl(new mapboxgl.NavigationControl());
-    </script> -->
   </body>
 </html>

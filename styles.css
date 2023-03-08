@@ -71,3 +71,11 @@ label.form-label {
   color: #ffe69c;
   opacity: 60%;
 }
+
+footer {
+  background-color: #272b30;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffc107;
+}

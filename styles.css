@@ -79,3 +79,7 @@ footer {
 .navbar-nav .nav-link.active {
   color: #ffc107;
 }
+
+.card-body {
+  z-index: 3;
+}
